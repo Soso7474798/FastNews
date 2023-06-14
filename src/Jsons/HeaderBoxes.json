@@ -1,0 +1,19 @@
+{
+    "informations": [
+        {
+            "title": "Followers",
+            "number": 900,
+            "id": 1
+        },
+        {
+            "title": "Topics",
+            "number": 124,
+            "id": 2
+        },
+        {
+            "title": "News",
+            "number": 635,
+            "id": 3
+        }
+    ]
+}
