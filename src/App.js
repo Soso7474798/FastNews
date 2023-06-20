@@ -1,4 +1,5 @@
 import { useState } from "react";
+import { Timeline, Tweet } from 'react-twitter-widgets'
 
 // import styles of this component
 import styles from "./App.module.css"
@@ -61,10 +62,12 @@ const App = () => {
         <div className="flex justify-content-center" style={{ marginTop: "50px", padding: '50px' }}>
           <ContainerCard>
               <div className={`${styles["gallery-setting"]} flex justify-content-between align-items-center`}>
-                <h1>All images</h1>
+                <h1>All Tweets</h1>
                 <Dropdown title="All Images" items={ddItems} liftingDdTextUp={takeDdTitle} />
               </div>
-              <MasonryLayout images={categoryImage} />
+              {/* <MasonryLayout images={categoryImage} /> */}
+              <Tweet  tweetId="1655044764062961669" />  <Tweet  tweetId="1671129954149617664" /> 
+              
           </ContainerCard>
         </div>
     </>
