@@ -1,6 +1,5 @@
 // import styles this component
 import styles from "./HeaderBox.module.css"
-import { Timeline, Tweet } from 'react-twitter-widgets'
 
 // import react package
 import PropTypes from 'prop-types'
